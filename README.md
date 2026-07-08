@@ -2,6 +2,8 @@
 
 ResumeCraft is a modern, interactive web application that allows users to build and preview their professional resumes in real-time. With a sleek user interface, it provides sections for personal information, experience, education, skills, projects, certifications, and leadership achievements.
 
+## Published Link - 
+- https://puneetkapoor321.github.io/Resume-Craft/
 ## Features
 
 - **Real-Time Preview:** See your resume update instantly as you type.
