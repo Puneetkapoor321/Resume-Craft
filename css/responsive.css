@@ -1,0 +1,81 @@
+/* Responsive Layouts */
+
+/* Desktop / Large Screens: 1200px+ (Default styles handle this) */
+
+/* Laptop / Tablets Landscape: 992px and below */
+@media (max-width: 992px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .form-section {
+        width: 100%;
+        max-width: 800px;
+        flex: none;
+    }
+    
+    .preview-section {
+        width: 100%;
+        max-width: 800px;
+        flex: none;
+        margin-top: 2rem;
+    }
+}
+
+/* Tablet Portrait: 768px and below */
+@media (max-width: 768px) {
+    .input-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .resume-a4 {
+        padding: 20px;
+    }
+    
+    .header-left h1 {
+        font-size: 2rem;
+    }
+    
+    .profile-img-box {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+/* Mobile: 576px and below */
+@media (max-width: 576px) {
+    .resume-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .header-right {
+        margin-top: 15px;
+    }
+    
+    .contact-info {
+        justify-content: center;
+    }
+    
+    .form-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+}
+
+/* Small Mobile: 375px and below */
+@media (max-width: 375px) {
+    .logo span {
+        display: none;
+    }
+    
+    .glass-card {
+        padding: 1rem;
+    }
+}

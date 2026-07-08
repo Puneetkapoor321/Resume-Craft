@@ -1,0 +1,28 @@
+:root {
+    /* Colors - Light Theme (Default) */
+    --bg-color: #F8FAFC;
+    --card-bg: rgba(255, 255, 255, 0.7);
+    --card-border: rgba(255, 255, 255, 0.4);
+    --text-primary: #1E293B;
+    --text-secondary: #64748B;
+    --primary-color: #2563EB;
+    --secondary-color: #3B82F6;
+    --accent-color: #06B6D4;
+    --danger-color: #EF4444;
+    --success-color: #10B981;
+    --input-bg: rgba(255, 255, 255, 0.9);
+    --input-border: #E2E8F0;
+    --shadow-soft: 0 10px 25px rgba(0, 0, 0, 0.05);
+    
+    /* Typography */
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    
+    /* Shapes */
+    --border-radius: 18px;
+    --border-radius-sm: 8px;
+    
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-smooth: 0.3s ease;
+}
